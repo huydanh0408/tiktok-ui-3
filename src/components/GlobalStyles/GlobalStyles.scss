@@ -1,7 +1,7 @@
 @import 'normalize.css';
 :root {
     --primary: #fe2c55;
-    --black: #000;
+    --black: #161823;
     --white: #fff;
     --text-color: #161823;
 
@@ -28,4 +28,11 @@ body {
     text-rendering: optimizeSpeed;
     color: var(--text-color);
     overflow-y: overlay;
+}
+
+input,
+button,
+[tabindex] {
+    border: none;
+    outline: none;
 }
